@@ -1,0 +1,35 @@
+.card {
+    border-radius: var(--main-border-radius);
+}
+
+.forecast {
+    margin-top: 50px;
+    border-radius: var(--main-border-radius);
+    box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-color--card);
+    color: var(--main-text-color);
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.city_name {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.city_temp {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.city_temp {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
