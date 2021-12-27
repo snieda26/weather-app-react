@@ -48,7 +48,7 @@ const Page = () => {
 
             <div className={styles.forecast_container}>
                 {
-                    data.map(obj => <Forecast isActive={obj.name === activeForecast.name ? true : false}
+                    data.reverse().map(obj => <Forecast isActive={obj.name === activeForecast.name ? true : false}
                         name={obj.name}
                         temp={obj.temp} />)
                 }
